@@ -51,14 +51,13 @@
       "relation": "oneToMany",
       "target": "api::tag.tag"
     },
-    "content": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor",
-      "required": true
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.text",
+        "elements.photo",
+        "elements.video"
+      ]
     }
   }
 }

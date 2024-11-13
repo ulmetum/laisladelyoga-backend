@@ -18,9 +18,16 @@ export default [
           'script-src': ['https://cdn.ckeditor.com'],
           'frame-src': [
             "'self'",
+            "'self'",
+            'youtube.com',
+            'www.youtube.com',
+            'vimeo.com',
+            '*.vimeo.com',
+            'facebook.com',
+            'www.facebook.com',
             'https://www.youtube.com',
             'https://www.dailymotion.com',
-          ], // youtube iframe
+          ],
           'connect-src': ["'self'", 'https:'],
           'img-src': [
             "'self'",

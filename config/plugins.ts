@@ -1,4 +1,7 @@
 export default ({ env }) => ({
+  'video-field': {
+    enabled: true,
+  },
   upload: {
     config: {
       provider: 'cloudinary',

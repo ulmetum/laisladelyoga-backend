@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_videos",
+  "info": {
+    "displayName": "Video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}
